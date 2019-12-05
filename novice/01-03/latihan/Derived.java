@@ -1,20 +1,20 @@
 class Base
 {
-    public void display ()
+    public void display (int y)
     {
-        system.out.println ("Base display()");
+        System.out.println("Base display()");
     }
 }
 class Derived extends Base
 {
-    @override
+    @Override
     public void display (int x)
     {
-        system.out.println ("Derived display (int )");
+        System.out.println ("Derived display (int )");
     }
     public static void main (String args[])
     {
         Derived obj = new Derived();
-        obj.display();
+        obj.display(2);
     }
 }
