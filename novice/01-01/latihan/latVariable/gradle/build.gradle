@@ -32,5 +32,8 @@ application {
     // Define the main class for the application.
     // mainClassName = 'latVariable.App'
     // mainClassName = 'latVariable.Test'
-    mainClassName = 'latVariable.Employee'
+    //mainClassName = 'latVariable.Employee'
+    //mainClassName = 'latVariable.Employee2'
+    mainClassName = 'latVariable.ArithmeticDemo'
+
 }
