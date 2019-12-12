@@ -14,6 +14,21 @@ plugins {
     id 'application'
 }
 
+// task fatJar(type: Jar) {
+// 	manifest {
+//         attributes 'Implementation-Title': 'Konstanta',  
+//         	'Implementation-Version':  1.0,
+//         	'Main-Class': 'latVariable.App'
+//     }
+//     baseName = project.name + '-all'
+// }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'latVariable.App'
+    }
+}
+
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
